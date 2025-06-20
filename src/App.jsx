@@ -6,6 +6,7 @@ import Admin from './pages/Admin'
 const App = () => {
   return (
     <div>
+      <h1>Yusuf</h1>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/admin' element={<Admin/>}/>
